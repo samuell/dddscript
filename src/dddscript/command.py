@@ -29,6 +29,6 @@ class Command(object):
     def escape_unallowed_chars(self, command_lst):
         for i, part in enumerate(command_lst):
             part = part.strip()
-            command_lst[i] = re.escape(part)
+            command_lst[i] = ''.join(c for c in part if c.isalnum()) 
         return command_lst
 
