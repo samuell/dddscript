@@ -1,1 +1,1 @@
-from dddscript.command import *
+from dddscript.command import Command
