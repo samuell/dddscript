@@ -12,7 +12,6 @@ class Command(object):
     (system calls) in different ways.
     '''
 
-
     def __init__(self, command_text):
         '''
         Constructor
